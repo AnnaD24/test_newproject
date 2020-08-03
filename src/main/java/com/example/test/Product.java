@@ -16,4 +16,8 @@ public class Product {
     private String size;
     private double price;
     private String producer;
+
+    public Integer getId() {
+        return id;
+    }
 }
